@@ -30,6 +30,7 @@ class UserTableViewController : UITableViewController {
     }
     @IBAction func logoutPressed(_ sender: UIButton) {
         defaults.set(nil, forKey: "token")
+        defaults.set(nil, forKey: "SavedCustomers")
         dismiss(animated: true, completion: nil)
     }
     
