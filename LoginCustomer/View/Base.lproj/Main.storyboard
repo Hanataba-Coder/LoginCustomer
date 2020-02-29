@@ -169,6 +169,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="UXk-ED-CvE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xf-Vh-9CN">
                                 <rect key="frame" x="54" y="49" width="62" height="23"/>
                                 <constraints>
@@ -197,7 +200,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PREMIUM:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGZ-ay-x3P">
-                                <rect key="frame" x="20" y="141.33333333333334" width="96" height="23"/>
+                                <rect key="frame" x="20" y="141.66666666666666" width="96" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="96" id="9QG-en-0KF"/>
                                 </constraints>
@@ -215,7 +218,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04o-uE-ewb" userLabel="cusGrade">
-                                <rect key="frame" x="124" y="111.66666666666667" width="270" height="20.666666666666671"/>
+                                <rect key="frame" x="124" y="111.66666666666667" width="270" height="21.000000000000014"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="270" id="6vI-80-ODQ"/>
                                 </constraints>
@@ -248,9 +251,11 @@
                             <constraint firstItem="6xf-Vh-9CN" firstAttribute="top" secondItem="NfC-fI-hmT" secondAttribute="top" constant="49" id="0oM-aG-QbC"/>
                             <constraint firstItem="yEu-bK-VOC" firstAttribute="top" secondItem="CSs-cd-ObA" secondAttribute="bottom" constant="9" id="393-Lv-TNI"/>
                             <constraint firstItem="fGd-o0-IMd" firstAttribute="centerY" secondItem="6xf-Vh-9CN" secondAttribute="centerY" id="4Cu-nh-oeW"/>
+                            <constraint firstItem="UXk-ED-CvE" firstAttribute="leading" secondItem="NfC-fI-hmT" secondAttribute="leading" id="4xH-ia-pKn"/>
                             <constraint firstItem="MxF-4D-GnQ" firstAttribute="top" secondItem="fGd-o0-IMd" secondAttribute="bottom" constant="9" id="5tf-fv-nEV"/>
                             <constraint firstItem="CSs-cd-ObA" firstAttribute="leading" secondItem="MxF-4D-GnQ" secondAttribute="trailing" constant="8" id="72D-ih-GOJ"/>
                             <constraint firstItem="NfC-fI-hmT" firstAttribute="trailing" secondItem="CSs-cd-ObA" secondAttribute="trailing" constant="20" id="7xj-Us-7A1"/>
+                            <constraint firstItem="UXk-ED-CvE" firstAttribute="top" secondItem="NfC-fI-hmT" secondAttribute="top" id="AcO-qq-0Fw"/>
                             <constraint firstItem="oGZ-ay-x3P" firstAttribute="top" secondItem="04o-uE-ewb" secondAttribute="bottom" constant="9" id="SAU-70-ZhO"/>
                             <constraint firstItem="fGd-o0-IMd" firstAttribute="leading" secondItem="6xf-Vh-9CN" secondAttribute="trailing" constant="8" id="TDK-vb-mWs"/>
                             <constraint firstItem="yEu-bK-VOC" firstAttribute="leading" secondItem="NfC-fI-hmT" secondAttribute="leading" constant="44" id="bQB-hq-m5q"/>
@@ -259,9 +264,11 @@
                             <constraint firstItem="6xf-Vh-9CN" firstAttribute="leading" secondItem="NfC-fI-hmT" secondAttribute="leading" constant="54" id="dcp-wU-AlN"/>
                             <constraint firstItem="NfC-fI-hmT" firstAttribute="trailing" secondItem="04o-uE-ewb" secondAttribute="trailing" constant="20" id="ft8-PG-TSw"/>
                             <constraint firstItem="oGZ-ay-x3P" firstAttribute="leading" secondItem="NfC-fI-hmT" secondAttribute="leading" constant="20" id="gyF-Z3-g6W"/>
+                            <constraint firstAttribute="bottom" secondItem="UXk-ED-CvE" secondAttribute="bottom" id="hxT-9C-7ba"/>
                             <constraint firstItem="7pG-vX-o2C" firstAttribute="centerY" secondItem="oGZ-ay-x3P" secondAttribute="centerY" id="iUF-w3-Jxe"/>
                             <constraint firstItem="04o-uE-ewb" firstAttribute="leading" secondItem="yEu-bK-VOC" secondAttribute="trailing" constant="8" id="kLc-6U-ned"/>
                             <constraint firstItem="7pG-vX-o2C" firstAttribute="leading" secondItem="oGZ-ay-x3P" secondAttribute="trailing" constant="8" id="mfg-i0-Jzh"/>
+                            <constraint firstItem="UXk-ED-CvE" firstAttribute="trailing" secondItem="NfC-fI-hmT" secondAttribute="trailing" id="mgQ-At-cK3"/>
                             <constraint firstItem="MxF-4D-GnQ" firstAttribute="leading" secondItem="NfC-fI-hmT" secondAttribute="leading" constant="73" id="pF2-3c-hwS"/>
                             <constraint firstItem="CSs-cd-ObA" firstAttribute="centerY" secondItem="MxF-4D-GnQ" secondAttribute="centerY" id="qUR-vP-q5L"/>
                         </constraints>
@@ -300,5 +307,6 @@
     </scenes>
     <resources>
         <image name="login" width="256" height="256"/>
+        <image name="wallpaper" width="384" height="512"/>
     </resources>
 </document>
